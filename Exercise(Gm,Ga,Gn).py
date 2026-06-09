@@ -1,11 +1,17 @@
 import time
-current_time= int(time.strftime("%H"))
-current_time=int(input("Enter the time: "))
-if current_time >=5 and current_time < 12:
-    print("Good Morning Husband")
-elif current_time >=12  and current_time < 5:
-    print("Good Afternoon Wifey")
-elif current_time >=5  and current_time < 10 :
-    print("Good Evening Kids")
+t = time.strftime('%H :%M :%S')
+t = int(time.strftime('%H'))
+
+# time is taken as a user input
+t=int(input("Enter the time :"))
+print(t)
+# if elif else conditions are followed
+
+if(t>=0 and t<12):
+    print("Good Morning!!")
+elif(t>=12 and t<15):
+    print("Good Afternoon!!")
+elif(t>=15 and t<20):
+    print("Good Evening!!")
 else :
-    print("Good Night , lets have fun now!")
+    print("Good Night!!")
