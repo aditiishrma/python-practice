@@ -1,7 +1,8 @@
 print(True)
 print("Hello World")
 print(9*2+6-0)
-print(9)
+print(9) #as an integer
+print("12") #as a string
 #Escape sequence characters 
 #This is a comment and will not be executed on the terminal
 #Comments are the part of the program that the programmer does not want to execute
