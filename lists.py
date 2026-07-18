@@ -80,5 +80,5 @@ print(peopleWith_t)
 
 # Accepts item which have more than 4 letters
 people= ["Aditi","Raj","Sarthak","Damon",'Elena']
-peopleWith_t=[item for item in people if (len(item)>4)]
+peopleWith_t=[item for item in people if (len(item)>4)] 
 print(peopleWith_t)
