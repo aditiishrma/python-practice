@@ -45,3 +45,35 @@ class Child(Father):
 G = GrandFather("Ravi")
 F = Father("Ram")
 C = Child("Rishab")
+
+# Inheritance means one class can use the properties & methods of another class.
+# Think of it as :
+          # ~ Parent Class : gives its features 
+          # ~ Child Class : recieves those features & can use its own as well.
+# It allows a Child Class to inherit the properties & methods of the Parent Class.
+# Used for "CODE REUSABILITY"
+
+# Without Inheritance :
+class Cat :
+    def eat(self):
+        print("Cat eats")
+class Dog :
+    def eat(self):
+        print("Dog eats")
+c = Cat()
+c.eat()
+d = Dog()
+d.eat()
+
+# With Inheritance :
+class Animal :
+    def eat(self):
+        print("Animal Eats!")
+class Dog(Animal):
+    pass
+class Cat(Animal):
+    pass
+d = Dog()
+d.eat()
+c = Cat()
+c.eat()
