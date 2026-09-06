@@ -1,0 +1,6 @@
+os Module
+os module mostly helps you to interact with the operating system, files, directories, paths etc...
+
+shutil Module
+shutil module deals with the files/folders
+It can copy,move,delete, or can help in backup and much more...
